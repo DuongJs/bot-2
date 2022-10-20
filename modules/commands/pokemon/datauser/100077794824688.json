@@ -1,0 +1,27 @@
+{
+  "name": "Rinz Dayy",
+  "ID": "100077794824688",
+  "pet": [
+    {
+      "name": "Solosis",
+      "type": "Psychic",
+      "HP": "67.5",
+      "Attack": "45.0",
+      "Defense": "60.0",
+      "Speed": "30.0",
+      "skill": [
+        "Overcoat",
+        "Magic Guard",
+        "Regenerator"
+      ],
+      "coins": 20000,
+      "images": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/577.png"
+    }
+  ],
+  "foods": [],
+  "solo": {
+    "win": 0,
+    "lose": 0,
+    "draw": 0
+  }
+}
