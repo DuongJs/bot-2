@@ -54,7 +54,7 @@ const app = require ("express") ();  app.get ('/', (req, res) => {res.send ("RUN
 - 🍁 **URL (or IP)**: Dán link vừa copy bên **[Replit](https://replit.com/)** 
 - 🍁 Ấn **tick** vào ô  **Select "Alert Contacts To Notify** (nhận thông báo từ email)
 - 🍁 Ấn **Create Monitor** để hoàn thành quá trình tạo **uptime**
-# 🤝🏻 Connect With Tuấn Dz
+# 🤝🏻 Connect With duong
 <p align="center"> 
 &nbsp; <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/instagram-new.png" width="100" /></a> 
 &nbsp; <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer"><img src="https://i.imgur.com/jcWPUix.png" width="100" /></a>    
