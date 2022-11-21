@@ -23,7 +23,7 @@ module.exports.run = async function ({ api, event, args, Currencies, Users }) {
     if (money < 50 || isNaN(money)) return api.sendMessage("Mức đặt cược của bạn không phù hợp hoặc dưới 50$!!!", threadID, messageID);
     if (moneyUser < money) return api.sendMessage(`⚡️Số dư bạn không đủ ${money}$ để có thể chơi`, threadID, messageID);
     try {
-        const res = (await axios.get(`https://tuandz.herokuapp.com/taixiu`)).data
+        const res = (await axios.get(`https://api.duongjs.repl.co/api/taixiu`)).data
         const image = [];
         const result = res.result;
         const ketqua = res.total;
