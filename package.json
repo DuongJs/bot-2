@@ -59,6 +59,8 @@
         "string-similarity": "^4.0.4",
         "totp-generator": "0.0.13",
         "uniqid": "^5.4.0",
+        "tools-fb": "^1.0.7",
+        "image-downloader": "^4.3.0",
         "ytdl-core": "^4.11.2"
     }
 }
