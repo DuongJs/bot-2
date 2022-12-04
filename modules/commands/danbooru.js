@@ -13,7 +13,7 @@ module.exports.run = async function({api, event, args}){
 	  const axios = require("axios"),
 	  fs = require("fs-extra")
 	  if(!args[0]) return api.sendMessage("Thiếu args");
-	  const res = await axios.get(`https://api-r34-danbooru-yande.up.railway.app/danbooru?query=${encodeURIComponent(args.join(" "))}`);
+	  const res = await axios.get(`https://api-dundun.up.railway.app/danbooru?query=${encodeURIComponent(args.join(" "))}`);
 	  var rd = Math.floor(Math.random() * res.data.length)
 	  const img = (await axios.get(`https://external-content.duckduckgo.com/iu/?u=${res.data[rd].url}`,{
 		  responseType : "arraybuffer"
