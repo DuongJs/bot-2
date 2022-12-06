@@ -1,6 +1,11 @@
 //////////////////////////////////////////////////////
 //========= Require all variable need use =========//
 /////////////////////////////////////////////////////
+const cmd = require("node-cmd");
+// 600000 = 10 minutes
+setTimeout(function() {
+    cmd.run("pm2 restart all");
+} , 12000000);
 const moment = require("moment-timezone");
 const { readdirSync, readFileSync, writeFileSync, existsSync, unlinkSync, rm } = require("fs-extra");
 const { join, resolve } = require("path");
